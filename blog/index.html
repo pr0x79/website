@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<html><head>  
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog Coming Soon!</title>
-<link rel="icon" type="image/x-icon" href="/assets/bkumo512x.png">
-<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+
+<head>
+  <title>THE BLOG</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/bkumo512x.png">
 </head>
+
 <body>
-<div id="horizon">
-    <div id="content">
-        <div class="bodytext">
-        <span class="headline">Blog Coming Soon!</span><br>
-        </div>
+  <!-- Add a wrapper element -->
+	<div class="wrapper">
+		<h1>Welcome!</h1>
+    
+    <!-- Add sorting buttons -->
+		<div>
+			<button class="sort-button" id="sort-newest">Newest</button>
+			<button class="sort-button" id="sort-oldest">Oldest</button>
+		</div>
+    
+    <!-- Add a container for the post previews -->
+		<div id="posts">
+			<div class="post-preview">
+				<h2 class="post-title">Initialer Post</h2>
+				<p class="post-date">January 6, 2023</p>
+				<p class="post-excerpt">Das hier ist der Versuch einen Post auf meinem Blog zu veröffentlichen. Falls du gerade auf meiner Website bist und das hier lesen kannst, hat es wohl geklappt :). </p>
+			</div>
+
+		</div>
+	
+		<h2>About:</h2>
+		<p>Nice and clean little blog talking about my achievements in web development.</p>
+        <p>You may want to buy me a <a href="/coffee">coffee</a>.</p>
+	</div>
+    <script src="script.js"></script>
+    <div id="footer">
+        <a href="/linkedin">LinkedIn</a>
+        |
+        <a href="/github">GitHub</a>
+        |
+        <a href="/">Home</a>
+        |
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Don't even try</a>
     </div>
-</div>
-<div id="footer">
-	<a href="/linkedin">LinkedIn</a>
-    |
-    <a href="/github">GitHub</a>
-    |
-    <a href="/">Home</a>
-	|
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Don't even try</a>
-</div>
+</body>
 
-
-</body></html>
+</html>
