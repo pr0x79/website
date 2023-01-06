@@ -58,3 +58,29 @@ padding: 10px;
 cursor: pointer;
 margin: 10px;
 }
+
+#footer 
+{
+font-size: 11px;
+font-family: Verdana, Geneva, Arial, sans-serif;
+text-align: center;
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 100%;
+height: 20px;
+visibility: visible;
+display: block
+}
+
+a:link, a:visited 
+{
+color: #06f;
+text-decoration: none
+}
+
+a:hover 
+{
+color: red;
+text-decoration: none
+}
