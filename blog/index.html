@@ -1,28 +1,45 @@
 <!DOCTYPE html>
-<html><head>  
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog Coming Soon!</title>
-<link rel="icon" type="image/x-icon" href="/assets/bkumo512x.png">
-<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+
+<head>
+  <title>My Blog</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-<div id="horizon">
-    <div id="content">
-        <div class="bodytext">
-        <span class="headline">Blog Coming Soon!</span><br>
-        </div>
-    </div>
-</div>
-<div id="footer">
-	<a href="/linkedin">LinkedIn</a>
-    |
-    <a href="/github">GitHub</a>
-    |
-    <a href="/">Home</a>
-	|
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Don't even try</a>
-</div>
+  <!-- Add a wrapper element -->
+	<div class="wrapper">
+		<h1>Welcome to My Blog</h1>
+    
+    <!-- Add sorting buttons -->
+		<div>
+			<button class="sort-button" id="sort-newest">Sort by Newest</button>
+			<button class="sort-button" id="sort-oldest">Sort by Oldest</button>
+		</div>
+    
+    <!-- Add a container for the post previews -->
+		<div id="posts">
+			<div class="post-preview">
+				<h2 class="post-title">Post 1</h2>
+				<p class="post-date">January 1, 2021</p>
+				<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id ornare nulla. Donec sollicitudin, enim vitae cursus eleifend, velit ligula luctus est, et porta velit est non magna. </p>
+			</div>
+			<div class="post-preview">
+				<h2 class="post-title">Post 2</h2>
+				<p class="post-date">January 2, 2021</p>
+				<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id ornare nulla. Donec sollicitudin, enim vitae cursus eleifend, velit ligula luctus est, et porta velit est non magna. </p>
+			</div>
+			<div class="post-preview">
+				<h2 class="post-title">Post 3</h2>
+				<p class="post-date">January 3, 2021</p>
+				<p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id ornare nulla. Donec sollicitudin, enim vitae cursus eleifend, velit ligula luctus est, et
+			</div>
+		</div>
+	
+		<h2>About Me:</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id ornare nulla. Donec sollicitudin, enim vitae cursus eleifend, velit ligula luctus est, et porta velit est non magna. </p>
+	</div>
+	<script src="script.js"></script>
+</body>
 
-
-</body></html>
+</html>
