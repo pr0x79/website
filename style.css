@@ -6,7 +6,6 @@
 
 .bg-image {
   position: absolute;
-  bottom: -88%;
 }
 
 .container {
@@ -92,8 +91,8 @@
 }
 
 .logo > img {
-  width: 160px;
-  height: 64px;
+  width: 51px;
+  height: 51px;
 }
 
 .learn-more > a > button {
