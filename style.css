@@ -18,8 +18,7 @@
   margin: auto;
   border: #fbab40;
   height: 100vh;
-  background-color: #242628;
-  background-image: url(./assets/kdesktop.png);
+  background-color: #0000;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 70px;
@@ -90,9 +89,8 @@
   margin-top: 75px;
 }
 
-.logo > img {
-  width: 51px;
-  height: 51px;
+.logo img {
+  width: 80px;
 }
 
 .learn-more > a > button {
