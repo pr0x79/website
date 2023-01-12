@@ -1,3 +1,3 @@
 # website
 
-source code for my fast made "coming soon" website which is deployed over cloudflare pages.
+source code for my fast made website which is deployed over cloudflare pages.
