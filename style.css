@@ -13,15 +13,16 @@ body {
 }
 
 a:link {
-  color: green;
+  color: rgb(10, 113, 174);
 }
 
 a:hover {
-  color: orange;
+  color: rgb(253, 7, 159);
 }
 
 button {
-  background-color: rgb(0, 128, 0);
+  font-size: 1vw;
+  background-color: rgb(10, 113, 174);
   border-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
   cursor: pointer;
@@ -29,25 +30,32 @@ button {
 }
 
 button:hover {
-  background-color: rgb(255, 165, 0);
+  font-size: 1vw;
+  background-color: rgb(253, 7, 159);
   border-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
   cursor: pointer;
   margin: 5px;
 }
 
+h1 {
+  font-size: 5vw;
+}
+
 .examples {
   background-color: rgb(0, 0, 0);
   margin: auto;
-  width: 25%;
-  border: 3px solid green;
+  width: 30%;
+  border: 3px solid rgb(253, 7, 159);
   padding: 10px;
 }
 
 .footer {
     position: fixed;
     bottom: 0%;
+    left: 0%;
     width: 100%;
+    background-color: black;
 }
 
 .back-to-top {
@@ -56,6 +64,8 @@ button:hover {
 }
 
 #html-img {
-  height: 80px;
+  max-width: 50%;
+  height: auto;
   alt: "W3Schools.com";
+  margin-top: 10px;
 }
