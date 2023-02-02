@@ -1,47 +1,61 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de-de">
   <head>
+    <title>Home | Henrik's Website</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" type="image/x-icon" href="/assets/bkumo512x.png">
-    <title>Home</title>
-    <link href="/style.css" rel="stylesheet" />
+    <link rel="icon" href="/assets/bkumo512x.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script src="/script.js"></script>
   </head>
 
   <body>
     <div class="container">
-      <div class="header">
-        <h3>Henrik Motz</h3>
-        <h1>Welcome to my Website!</h1>
-        <p>Check out my links:</p>
-        <section class="options">
-          <img src="/assets/terminal.svg" />
-          <a
-            href="/github"
-            target="_blank"
-            > GitHub</a
-          >
-          <img src="/assets/cloud-upload.svg" />
-          <a
-            href="/linkedin"
-            target="_blank"
-            > LinkedIn</a
-          >
-        </section>
+      <div class="top">
+        <!--This is for testing purposes only-->
+        <h1>This is a Heading</h1>
       </div>
-
-      <section class="learn-more">
-        <a
-          href="/blog"
+      <div class="examples">
+        <h2>This is another Heading</h2>
+        <a href="https://www.w3schools.com" target="_blank">This is a link</a>
+        <p title="I'm a tooltip">This is a paragraph.</p>
+        <p>
+          This is a <br />
+          paragraph with a line break.
+        </p>
+        <p>
+          <strong>This text is important!</strong>
+          <br />
+          <small>This is some smaller text.</small>
+        </p>
+        <p>
+          The <abbr title="World Health Organization">WHO</abbr> was founded in
+          1948.
+        </p>
+        <img
+          id="html-img"
+          src="https://static3.makeuseofimages.com/wordpress/wp-content/uploads/2017/09/HTML-Effects-Featured.jpg"
+        />
+        </div>
+      <div class="footer">
+        <button onclick="document.location='default.asp'">HTML Tutorial</button>
+        <a href="mailto:admin@henrikmotz.de"> <button>E-Mail</button></a>
+      </div>
+      <div class="back-to-top">
+        <a href="#top"
+          ><span class="material-symbols-outlined"> expand_less </span></a
         >
-          <button>To my Blog</button>
-        </a>
-        <p><a href="/coindrop" target="_blank"><img src="https://coindrop.to/embed-button.png"></img></a></p>
-      </section>
-      <div class="logo">
-        <a href="/">
-          <img src="/assets/wkumo512x.png"
-        /></a>
       </div>
     </div>
   </body>
