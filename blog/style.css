@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   min-height: 100%;
   background-image: url("/assets/cyber.png");
   backdrop-filter: brightness(25%);
@@ -15,12 +15,8 @@ body {
   background-attachment: fixed;
 }
 
-a:hover {
-  color: orange;
-}
-
 .container {
-  padding-top: 200px;
+  padding-top: 200;
 }
 
 .header h3 {
@@ -29,37 +25,22 @@ a:hover {
 }
 
 .header h1 {
-  padding-bottom: 30px;
-  padding-top: 10px;
+  padding-bottom: 50;
+  padding-top: 10;
   font-size: 50px;
 }
 
 .header p {
-  padding: 15px;
-}
-
-.options {
-    font-size: 20px;
-}
-
-#spacer {
-  padding-left: 20px;
+  padding: 15;
+  font-size: 20px;
 }
 
 .blog a button {
-    background: orange;
-    border-radius: 10px;
-    border: none;
-    width: 180px;
-    margin-top: 78px;
-    height: 55px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.coindrop a img {
+  background: orange;
   border-radius: 10px;
-  height: 57px;
-  width: 229px;
-  padding-top: 5px;
+  border: none;
+  width: 180px;
+  height: 55px;
+  font-size: 16px;
+  cursor: pointer;
 }
