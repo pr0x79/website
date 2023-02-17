@@ -39,7 +39,7 @@ a:hover {
 }
 
 .options {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #spacer {
@@ -47,14 +47,14 @@ a:hover {
 }
 
 .blog a button {
-    background: orange;
-    border-radius: 10px;
-    border: none;
-    width: 180px;
-    margin-top: 78px;
-    height: 55px;
-    font-size: 16px;
-    cursor: pointer;
+  background: orange;
+  border-radius: 10px;
+  border: none;
+  width: 180px;
+  margin-top: 78px;
+  height: 55px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .coindrop a img {
