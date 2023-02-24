@@ -6,10 +6,10 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(69, 69, 69);
   min-height: 100%;
   background-image: url("/assets/cyber.png");
-  backdrop-filter: brightness(25%);
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
