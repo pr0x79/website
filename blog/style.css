@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  padding-top: 200;
+  padding-top: 150px;
 }
 
 .header h3 {
@@ -25,13 +25,13 @@ body {
 }
 
 .header h1 {
-  padding-bottom: 50;
-  padding-top: 10;
+  padding-bottom: 50px;
+  padding-top: 10px;
   font-size: 50px;
 }
 
 .header p {
-  padding: 15;
+  padding: 15px;
   font-size: 20px;
 }
 
